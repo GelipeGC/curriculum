@@ -6,7 +6,7 @@ node_js:
   - '9'
 git:
   depth: 3
-scripts:
+script:
   - yarn build
   - echo 'url-perzonalida.com' > public/CNAME
 deploy:
